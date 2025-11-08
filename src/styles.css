@@ -1,0 +1,72 @@
+:root {
+  --font-primary: 'Inter', sans-serif;
+  --font-secondary: 'Playfair Display', serif;
+}
+
+body {
+  font-family: var(--font-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Override Tailwind's default font for headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary) !important;
+}
+
+/* Dropdown Menu */
+.nav-dropdown {
+  position: absolute;
+  z-index: 20;
+  margin-top: 0.75rem;
+  width: 12rem;
+  background-color: white;
+  border-radius: 0.75rem; /* Slightly more rounded */
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); /* Softer shadow */
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  opacity: 0;
+  transform: translateY(-10px) scale(0.95);
+  animation: dropdown-fade-in 0.15s ease-out forwards; /* Faster animation */
+  border: 1px solid #f3f4f6;
+}
+
+@keyframes dropdown-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-10px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.nav-dropdown a {
+  display: block;
+  padding: 0.75rem 1.25rem; /* More padding */
+  font-size: 0.9rem;
+  color: #374151;
+  transition: background-color 0.2s, color 0.2s;
+  font-weight: 500;
+}
+
+.nav-dropdown a:hover {
+  background-color: #f9fafb;
+  color: #000;
+}
+
+/* Scroll Animations */
+.scroll-animate {
+  opacity: 0;
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.scroll-animate.slide-up {
+  transform: translateY(50px);
+}
+
+.scroll-animate.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
