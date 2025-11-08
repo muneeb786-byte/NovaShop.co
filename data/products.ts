@@ -1,4 +1,4 @@
-import { cjackblack, cjackbrown, cjackgrey, cjacklblack, fpantdgrey, fpanthwhite, fpantlblack, fpantlgrey, hoodieblack, hoodiegrey, hoodiered, hoodiewhite, jeansblack, jeansblue, jeansgrey, jeanswhite, lawnblue, lawngreen, lawnpink, lawnred, maxiblack, maxipink, maxired, maxiwhite, poloblack, polobrown, polored, polowhite, printedblack, printedgrey, printedmix, printedwhite, shararablue, shararagreen, shararared, shararawhite, shineblue, shinegreen, shineskyblue, shirtblack, shirtblue, shirtgrey, shirtwhite, sjacketblack, sjacketbrown, sjacketlbrown, sjacketwhite, sweaterblack, sweaterlgrey, sweaterwhite, tshirtblack, tshirtblue, tshirtgrey, tshirtwhite, wdressred, wdresssky, wdressskyblue, wdresswhite, wformalblack, wformalpink, wformalred, wformalskyblue } from './images/index';
+import { cjackblack, cjackbrown, cjackgrey, cjacklblack, fpantdgrey, fpanthwhite, fpantlblack, fpantlgrey, hoodieblack, hoodiegrey, hoodiered, hoodiewhite, jeansblack, jeansblue, jeansgrey, jeanswhite, lawnblue, lawngreen, lawnpink, lawnred, maxiblack, maxipink, maxired, maxiwhite, poloblack, polobrown, polored, polowhite, printedblack, printedgrey, printedmix, printedwhite, shararablue, shararagreen, shararared, shararawhite, shineblue, shinegreen, shineskyblue, shinewhite, shirtblack, shirtblue, shirtgrey, shirtwhite, sjacketblack, sjacketbrown, sjacketlbrown, sjacketwhite, sweaterblack, sweaterlgrey, sweaterwhite, tshirtblack, tshirtblue, tshirtgrey, tshirtwhite, wdressred, wdresssky, wdressskyblue, wdresswhite, wformalblack, wformalpink, wformalred, wformalskyblue } from './images/index';
 import { Product } from '../types';
 
 const baseProducts: Omit<Product, 'id'>[] = [
@@ -223,7 +223,7 @@ const baseProducts: Omit<Product, 'id'>[] = [
     price: 120.00,
     rating: 4.9,
     reviewCount: 85,
-    imageUrls: [shirtwhite,  shinegreen, shineskyblue, shineblue],
+    imageUrls: [shinewhite,  shinegreen, shineskyblue, shineblue],
     colors: ['white', 'green', 'skyblue', 'blue'],
     sizes: ['X-Small', 'Small', 'Medium'],
     description: 'Steal the spotlight in this dazzling sequin mini dress. With its bodycon fit and all-over sparkle, it\'s guaranteed to turn heads at your next event.',

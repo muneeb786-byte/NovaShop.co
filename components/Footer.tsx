@@ -64,12 +64,12 @@ const Footer: React.FC = () => {
 
                 <div className="border-t border-gray-200 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
                     <p>Shop.co © 2000-2023, All Rights Reserved</p>
-                    <div className="flex items-center space-x-4 mt-4 md:mt-0">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg" alt="Visa" className="h-6"/>
-                        <img src="https://cdn.worldvectorlogo.com/logos/mastercard-modern-design-.svg" alt="Mastercard" className="h-6"/>
-                        <img src="https://cdn.worldvectorlogo.com/logos/paypal-3.svg" alt="PayPal" className="h-6"/>
-                        <img src="https://cdn.worldvectorlogo.com/logos/apple-pay-2.svg" alt="Apple Pay" className="h-6"/>
-                        <img src="https://cdn.worldvectorlogo.com/logos/google-pay-2.svg" alt="Google Pay" className="h-6"/>
+                    <div className="flex items-center space-x-4 mt-4 md:mt-0 ">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Visa_Inc._logo.svg" alt="Visa" className="h-3"/>
+                        <img src="https://cdn.worldvectorlogo.com/logos/mastercard-modern-design-.svg" alt="Mastercard" className="h-3"/>
+                        <img src="https://cdn.worldvectorlogo.com/logos/paypal-3.svg" alt="PayPal" className="h-3"/>
+                        <img src="https://cdn.worldvectorlogo.com/logos/apple-pay-2.svg" alt="Apple Pay" className="h-3"/>
+                        <img src="https://cdn.worldvectorlogo.com/logos/google-pay-2.svg" alt="Google Pay" className="h-3"/>
                     </div>
                 </div>
             </div>

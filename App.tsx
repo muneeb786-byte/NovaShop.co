@@ -44,7 +44,7 @@ const AppLayout: React.FC = () => {
       <ScrollToTop />
       {shouldHide ? (
         <header className="absolute top-0 left-0 p-4 sm:p-6 lg:p-8 z-10">
-          <a href="#/" className="text-2xl font-black tracking-tighter">SHOP.CO</a>
+          <a href="#/" className="text-2xl font-black tracking-tighter">NOVA.CO</a>
         </header>
       ) : (
         <>
